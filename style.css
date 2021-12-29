@@ -1,0 +1,46 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+ 
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    /* instead of display, centre postioning can be done by:
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50%);
+    */
+    /* transform: scale(1);
+    transform: rotate(225deg); */
+    box-shadow: -2px 5px 10px rgb(255, 255, 255);
+}
+/* .box::before{
+content:"" ;
+position: absolute;
+height: 100%;
+width: 100%;
+background-color: red;
+left: 50%;
+border-radius: 50%;
+}
+.box::after{
+    content:"" ;
+position: absolute;
+height: 100%;
+width: 100%;
+background-color: red;
+top: 50%;
+border-radius: 50%;
+}
+.box:hover{
+    background-color: white;
+} */
